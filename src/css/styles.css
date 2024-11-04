@@ -138,7 +138,7 @@ strong {
 
 /*Sidebar de los contactos*/
 .contactos, .principal {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .contactos {
