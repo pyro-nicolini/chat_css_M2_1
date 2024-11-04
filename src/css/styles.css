@@ -131,20 +131,22 @@ strong {
 
 .menu {
     width: 5rem;
-    height: 2rem;
+    font-size: 1.8rem;
     justify-content: space-between;
+    align-items: center;
     cursor: pointer;
 }
 
 /*Sidebar de los contactos*/
 .contactos, .principal {
     min-height: 100vh;
+    height: 100vh;
 }
 
 .contactos {
     position: relative;
-    min-width: 19rem;
-    flex-basis: 19rem;
+    min-width: 20rem;
+    flex-basis: 20rem;
     flex-direction: column;
     background-color: var(--white);
     border-right: var(--grayb);
@@ -163,7 +165,7 @@ strong {
 }
 
 .principal img {
-    width: 16rem;
+    width: 15rem;
     height: auto;
     object-fit: cover;
     border-radius: 1rem;
