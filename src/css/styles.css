@@ -138,6 +138,9 @@ strong {
     font-size: 1.8rem;
     justify-content: space-between;
     align-items: center;
+}
+
+i {
     cursor: pointer;
 }
 
@@ -236,8 +239,8 @@ strong {
 }
 
 @media (max-width: 600px) {
-    .principal {
-        min-height: 100vh;
+    html, body {
+        overflow: hidden;
         height: 100%;
     }
 }
