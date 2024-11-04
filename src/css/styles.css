@@ -25,6 +25,10 @@ body, main, .status {
     width: 100%;
 }
 
+body, main {
+    background-color: var(--platinum);
+}
+
 main, .perfil, .user, .status, .signal, .menu, .contactos, .principal, .boton, .item, .text {
     display: flex;
 }
@@ -37,11 +41,11 @@ p, .a, strong, .bprimary  {
    font-family: var(--type2);
 }
 
+
 body {
     margin: 0;
     padding: 0;
-    height: max-content;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 h1 {
@@ -140,11 +144,10 @@ strong {
 /*Sidebar de los contactos*/
 .contactos, .principal {
     min-height: 100vh;
-    height: 100vh;
+    height: 100%;
 }
 
 .contactos {
-    position: relative;
     min-width: 20rem;
     flex-basis: 20rem;
     flex-direction: column;
@@ -161,7 +164,6 @@ strong {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: var(--platinum);
 }
 
 .principal img {
@@ -231,4 +233,11 @@ strong {
 .name {
     font-weight: 500;
     font-size: var(--m);
+}
+
+@media (max-width: 600px) {
+    .principal {
+        min-height: 100vh;
+        height: 100%;
+    }
 }
