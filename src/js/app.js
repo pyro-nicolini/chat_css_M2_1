@@ -42,3 +42,20 @@ for (let i = 0; i < imageCount; i++) {
     const chatElement = createChatElement(imgSrc, nombre, chatmsg);
     chatList.appendChild(chatElement);
 }
+
+function mostrarAlerta() {
+    // Selecciona todos los elementos con la clase "item"
+    const items = document.getElementsByClassName("item");
+    
+    // Añade un evento 'click' a cada elemento en la colección
+    Array.from(items).forEach(item => {
+        item.addEventListener("click", () => {
+            // Accede al nombre dentro del item
+            const nombre = item.querySelector(".name").textContent; // Obtiene el nombre
+            alert(`Soy una maqueta de ${nombre}`); // Muestra el nombre completo
+        });
+    });
+}
+
+// Llama a la función para añadir los eventos de clic
+mostrarAlerta();
