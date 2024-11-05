@@ -31,7 +31,7 @@ function createChatElement(imgSrc, nombre, chatmsg) {
 
 const nombres = ["Paulina","Camila","Roberto","Camilo","Matias","Leonardo","Eustaquio", "Maida","Jimena","Amelia","Ramiro","Tomas","Alfredo","Guillermo"]
 
-const msg = ["Te amo mi vida❤️ 🔥" , "blandtiss 😍 praesentium" , "🔥 🔥 🔥  debitis aut" , "Nam libero 🥴🤧 tempore" , "At vero eos accusa" , "blandtiss 🚀" , "officiis debitis aut" , "Nam libero tempore ❤️❤️", "officiis 🌊🐶🤙  debitis aut" , "Nam libero tempore" , "👌👌" , "blandtiss praesentium" , "officiis debitis aut" , "Nam libero tempore"]
+const msg = ["Te amo mi vida ❤️ 🔥" , "blandtiss 🐶 praesentium" , "🔥 🔥 🔥  debitis aut" , "Nam libero 🥴🤧" , "At vero eos accusa" , "Reprobando a atrasados 🚀" , "officiis debitis aut" , "Nam libero tempore 🤙🤙", "officiis 🌊🐶🤙  debitis aut" , "Nam libero tempore" , "👌👌" , "blandtiss praesentium" , "officiis debitis aut" , "Nam libero tempore"]
 
 
 // Inyectar elementos en el sidebar
