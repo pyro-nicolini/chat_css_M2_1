@@ -1,4 +1,4 @@
-[Proyect Chat_CSS_2.1](https://pyro-nicolini.github.io/chat_css_M2_1/)
+[Proyect Chat_CSS_2.1](https://pyro-nicolini.github.io/chat_css_m2_1/)
 
 # CSS Design Project according to graphic sketch
 
